@@ -10,20 +10,20 @@
     "csharp",
     "reactive"
   ],
-  "homepage": "https://github.com/outernet-foundation/Nessle#readme",
+  "homepage": "https://github.com/FofX-Games/Nessle#readme",
   "bugs": {
-    "url": "https://github.com/outernet-foundation/Nessle/issues"
+    "url": "https://github.com/FofX-Games/Nessle/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/outernet-foundation/Nessle.git"
+    "url": "https://github.com/FofX-Games/Nessle"
   },
   "license": "MIT",
   "author": "Elliot Pjecha <epjecha@gmail.com>",
   "displayName": "Nessle",
   "unity": "6000.0",
   "dependencies": {
-    "com.fofx.observething": "1.1.0"
+    "com.fofx.observething": "1.1.1-dev.161"
   },
   "samples": [
     {
