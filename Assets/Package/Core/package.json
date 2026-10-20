@@ -10,13 +10,13 @@
     "csharp",
     "reactive"
   ],
-  "homepage": "https://github.com/outernet-foundation/Nessle#readme",
+  "homepage": "https://github.com/fofx-games/Nessle#readme",
   "bugs": {
-    "url": "https://github.com/outernet-foundation/Nessle/issues"
+    "url": "https://github.com/fofx-games/Nessle/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/outernet-foundation/Nessle.git"
+    "url": "git+https://github.com/fofx-games/Nessle.git"
   },
   "license": "MIT",
   "author": "Elliot Pjecha <epjecha@gmail.com>",
