@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "com.fofx.observething": {
-      "version": "https://github.com/outernet-foundation/ObserveThing.git?path=Assets/Package/Core#957c7b68aefaf70a0ad567fd1edf73931dfbd80e",
+      "version": "1.1.1-dev.161",
       "depth": 0,
-      "source": "git",
+      "source": "registry",
       "dependencies": {},
-      "hash": "957c7b68aefaf70a0ad567fd1edf73931dfbd80e"
+      "url": "https://registry.npmjs.org"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.9",
