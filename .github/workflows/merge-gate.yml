@@ -1,0 +1,19 @@
+name: Merge gate
+
+on:
+  pull_request:
+    branches: [dev]
+    types: [labeled]
+
+concurrency:
+  group: merge-gate-${{ github.event.pull_request.number }}
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  merge-gate:
+    uses: outernet-foundation/github-actions-toolkit/.github/workflows/merge-gate.yml@c6221cf68594e2d6bf4445da02beea0b8ee58440
+    secrets:
+      merge-bot-private-key: ${{ secrets.MERGE_BOT_APP_PRIVATE_KEY }}
